@@ -1,0 +1,41 @@
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#heading {
+  color: hsl(334, 90%, 57%);
+  z-index: 999;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  user-select: none;
+  font-weight: 900;
+}
+
+#heading a {
+  color: rgba(0, 0, 0, 0.9);
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: 900;
+  background-color: hsl(334, 90%, 57%);
+  border-radius: 8px;
+  padding: 8px;
+  user-select: none;
+  transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+}
+
+#heading a:hover {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: hsl(334, 90%, 57%);
+  border-radius: 10px;
+  padding: 13px;
+}
